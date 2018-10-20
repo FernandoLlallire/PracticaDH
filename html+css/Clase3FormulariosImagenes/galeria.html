@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Galeria</title>
+    </head>
+
+    <body>
+        <a href="index.html">Volver</a>
+        <h1 id="Verde">Galeria Fotografica</h1>
+        <form class="formulario" action="index.html" method="post"><!-- TODO: action = Where to send the form-data when the form is submitted. -->
+        <fieldset>
+            <legend>Datos</legend>
+            <label for="Nombre">Nombre</labe l>
+            <input type="text" name="Nombre" id="Nombre" required>
+            <br>
+            <br>
+            <label for="Apellido">Apellido</label>
+            <input type="text" name="Apellido" id="Apellido"required>
+            <br>
+            <br>
+            <label for=""></label>
+            <input type="email" name="email" placeholder="email@domain.com" required>
+            <br>
+            <br>
+            <label for="Asunto">Asunto</label>
+            <select class="Asunto" name="Asunto" id="Asunto">
+            <optgroup label="Primer parte">
+                <option value="Asunto1">Asunto1</option>
+                <option value="Asunto2">Asunto2</option>
+            </optgroup>
+            <optgroup label="Segundo parte">
+                <option value="Asunto3">Asunto3</option>
+                <option value="Asunto4">Asunto4</option>
+            </optgroup>
+            </select>
+            <br>
+            <br>
+            <p>Genero</p>
+            <label>Hombre</label>
+            <input type="radio" name="Genero">
+            <label>Mujer</label>
+            <input type="radio" name="Genero">
+            <label>Otro</label>
+            <input type="radio" name="Genero">
+        </fieldset>
+        <fieldset>
+          <legend>lo otro</legend>
+          <p>Pasatiempos:</p>
+          <label>pasatiempoUno</label>
+          <input type="checkbox" name="Pasatiempo">
+          <label>pasatiempoDos</label>
+          <input type="checkbox" name="Pasatiempo">
+          <label>pasatiempoTres</label>
+          <input type="checkbox" name="Pasatiempo">
+          <label>pasatiempoCuatro</label>
+          <input type="checkbox" name="Pasatiempo">
+          <label>pasatiempoQuinto</label>
+          <input type="checkbox" name="Pasatiempo">
+          <br>
+          <br>
+          <label for="Comentarios">Comentarios:</label>
+          <br>
+          <textarea id="Comentarios"name="Comentarios" rows="8" cols="80" required placeholder="Aca pone el comentario"></textarea>
+          <br><br>
+          <button type="submit" name="Enviar">Enviar</button>
+          <button type="reset" name="Borrar">Borrar</button>
+        </fieldset>
+        </form>
+
+    </body>
+</html>

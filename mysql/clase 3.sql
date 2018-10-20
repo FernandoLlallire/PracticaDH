@@ -1,0 +1,15 @@
+-- select actors.first_name
+-- 	from actors
+-- 		left join movies as m on actors.favorite_movie_id = m.id
+-- 	where actors.first_name like '%t%';
+--
+-- select actors.*, movies.title
+-- from actors
+-- 	left join actor_movie on actors.id = actor_movie.actor_id
+--     left join movies on actor_movie.movie_id = movies.id
+--     where actors.id in (select actors.id
+-- 										from
+-- 												actors
+-- 												left join movies as m on actors.favorite_movie_id = m.id
+-- 								where actors.first_name like '%t%')
+-- 

@@ -1,0 +1,80 @@
+body{
+  background-image: url(../img/bg-2.png);
+  font-style: normal;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+header{
+  width: 960px;
+  background-color: orange;
+  margin: 0px auto;
+}
+section {
+  width: 960px;
+  background-color: white;
+  margin: 0px auto;
+  overflow: hidden;
+}
+header {
+  margin: 50px auto 50px;
+}
+
+ul {
+  margin: 0 0 0 20px;
+  font-size: 18px;
+}
+ul li {
+  display: inline-block;
+  margin: 10px 50px 10px;
+}
+
+header img {
+  position: absolute;
+  top: 15px;
+  left: 130px;
+}
+ article {
+   float: left;
+   width: 300px;
+   margin: 10px;
+   position: relative;
+ }
+
+.characteristic {
+  position: absolute;
+  top: 0px;
+  right: 10px;
+}
+
+.producName {
+position: absolute;
+}
+
+.cont a{
+/*Preguntar si esta bien que hagamos overlow hidden para que el boton sea del tamaño total
+y ademas que sea todo seleccionable!!!!!*/
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+bottom: 20px;
+font-size: 20px;
+border-radius: 3px;
+color: #fff;
+padding: 5px;
+background-color: red;
+/*display: inline-block;*/
+}
+
+.producName {
+  top:50%;
+  width: 100%;
+  transform: translateY(-50%);
+  background-color:rgba(15, 15, 15, 0.77);
+  color: white;
+  text-align: center;
+}
+.producName p {
+ margin:0;
+}

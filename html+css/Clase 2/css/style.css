@@ -1,0 +1,23 @@
+body{
+  color: black;
+  /* font-family: 'Chela One', cursive; */
+  font-family: sans-serif;
+  font-style: italic;
+}
+
+h1{
+  text-align: center;
+  color: black;
+  text-decoration: overline;
+}
+h2{
+  color: #33691e;
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+p{
+  text-align: justify;
+  font-size: 14px;
+  line-height: 23px;
+}
